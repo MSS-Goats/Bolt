@@ -1,0 +1,15 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Bolt</title>
+    <link rel="stylesheet" href="{% static 'css/analysis/nav.css' %}">
+    <link rel="stylesheet" href="{% static 'css/analysis/index.css' %}">
+</head>
+<body>
+{% include 'analysis/navigation.html' %}
+<img id="bolt-start" src="{% static 'images/analysis/bolt-start.jpg' %}" alt="Usain Bolt's start off the block">
+<a id="start-button" href="analysis/">Get Started</a>
+</body>
+</html>

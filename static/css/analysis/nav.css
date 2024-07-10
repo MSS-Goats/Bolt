@@ -1,0 +1,40 @@
+header, nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+header a {
+    color: #FBB812;
+    text-decoration: none;
+}
+
+header > a {
+    font-size: 3vw;
+    font-weight: bold;
+    transform: translate(0.5vw);
+}
+
+nav > a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2vw;
+    width: 10vw;
+}
+
+nav > a:hover,
+nav > a.active {
+    font-weight: 550;
+}
+
+nav > a.active {
+    cursor: default;
+    pointer-events: none;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: #FBB812;
+}

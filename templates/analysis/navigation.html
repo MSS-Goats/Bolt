@@ -1,0 +1,9 @@
+<header>
+    <a id="main-page" href="">Bolt</a>
+    <nav>
+        {% for nav_item in nav_item_list %}
+            <a href="{{ nav_item.path }}">{{ nav_item.name }}</a>
+        {% endfor %}
+    </nav>
+</header>
+<hr>
