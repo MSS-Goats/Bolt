@@ -1,0 +1,1 @@
+Serves as the front-end for the application `Usain`, providing users with a GUI to access and interface with the provided methods: Uploading videos of their running, comparing it with top runners, and receiving AI (Google MediaPipe) powered insights into their form and posture, making running coaches more accessible, more objective, and more helpful for people worldwide.
